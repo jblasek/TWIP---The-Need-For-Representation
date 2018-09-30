@@ -8,7 +8,7 @@ public class Main {
         System.out.println("What word to you want me to encrypt?");
         String word = rbReader.next();
 
-        int startingPosition = (int) (Math.random() * 4);
+        int startingPosition = (int) (Math.random() * word.length());
         int j = 0;
         String encryptedWord = "";
 
